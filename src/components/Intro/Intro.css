@@ -103,8 +103,8 @@
   }
 
   .i-right {
-    transform: scale(0.8);
-    left: -3rem;
+    transform: scale(100%);
+    left: 2.6rem;
   }
   .i-right .blur {
     display: none;
