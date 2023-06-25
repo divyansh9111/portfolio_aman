@@ -9,7 +9,9 @@ const Contact = () => {
   const [done, setDone] = useState(false)
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs
+    console.log();
+    if (form.current.message.value&&form.current.from_name.value&&form.current.from_email.value) {
+      emailjs
       .sendForm(
         "service_mozklgt",
         "template_vpj1gau",
@@ -26,6 +28,10 @@ const Contact = () => {
           console.log(error.text);
         }
       );
+    }else{
+      window.alert("Please fill all the fields!")
+    }
+    
   };
 
   return (
