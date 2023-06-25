@@ -27,6 +27,11 @@ import img20 from "../../img/aman/zone gym.jpg";
 import img21 from "../../img/aman/Untitled-1.jpg";
 import img22 from "../../img/aman/real.jpeg";
 import img23 from "../../img/aman/POST 4.jpg";
+import img24 from "../../img/aman/cup.jpg";
+import img25 from "../../img/aman/Logo.png";
+import img26 from "../../img/aman/T shirt 1.jpg";
+import img27 from "../../img/aman/T shirt 2.jpg";
+import img28 from "../../img/aman/3d board.jpg";
 const Portfolio = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -113,6 +118,26 @@ const Portfolio = () => {
     {
       image:
         img23,
+    },
+    {
+      image:
+        img24,
+    },
+    {
+      image:
+        img25,
+    },
+    {
+      image:
+        img26,
+    },
+    {
+      image:
+        img27,
+    },
+    {
+      image:
+        img28,
     },
     
   ];
